@@ -1,7 +1,7 @@
 void main() {
-    IO.println(String.format("Hello and welcome!"));
-
+    int sum = 0;
     for (int i = 1; i <= 5; i++) {
-        IO.println("i = " + i);
+        sum += i;
     }
+    System.out.println(sum);
 }
